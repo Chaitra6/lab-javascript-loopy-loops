@@ -108,8 +108,14 @@ for (var i = 0; i < 2; i++) {
 // - The driver's name goes first.
 // - Yo, the navigator goes first definitely.
 // - What?! You both have the same name?
-
-// Bonus Time!
+let arr = [];
+arr[0]=ProGrad1;
+arr[1]=ProGrad2;
+arr.sort();
+for(var i=0;i<arr.length;i++){
+return arr[i];
+}
+    // Bonus Time!
 // Bonus 1:
 // Go to lorem ipsum generator and:
 // Generate 3 paragraphs. Store the text in a variable type of string.
